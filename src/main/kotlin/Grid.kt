@@ -1,10 +1,10 @@
 class Grid<A> {
     private var content: MutableList<MutableList<A?>>
-    val x0: Int;
-    val x1: Int;
-    val y0: Int;
-    val y1: Int;
-    constructor(x0: Int, x1: Int, y0: Int, y1: Int,default: A?=null) {
+    val x0: Int
+    val x1: Int
+    val y0: Int
+    val y1: Int
+    constructor(x0: Int, x1: Int, y0: Int, y1: Int, default: A?=null) {
         this.x0=x0
         this.x1=x1
         this.y0=y0

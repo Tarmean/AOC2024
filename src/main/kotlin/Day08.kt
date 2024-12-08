@@ -66,7 +66,6 @@ fun to2d(points: List<Point>): List<List<Boolean>> {
     return out
 }
 fun <A : Any> toString(ls: List<List<A>>, transform: ((A)-> CharSequence)?=null): String = ls.joinToString("\n") { it.joinToString("", transform=transform) }
-fun pretty(points: List<Point>) = toString(to2d(points)) {if (it) { "#" } else { "." }}
 
 fun size(s: String): Bounds {
     val lines = s.lines()

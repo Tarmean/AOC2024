@@ -5,7 +5,7 @@ fun solve(eq: Equation): Boolean {
     fun go(pos: Int, remainder: Long): Boolean {
 
         if (pos < 0) {
-            return remainder == 0L;
+            return remainder == 0L
         }
         if (remainder <= 0) {
             return false
